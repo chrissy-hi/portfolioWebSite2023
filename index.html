@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+
+  <body>
+    <nav id="desktop-nav">
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="logo">
+        <li><a href="#">
+        <img
+        src="./assets/logo.png"
+        alt="My logo"
+        class="logo"/>
+      </a>
+    </div>
+    </nav>
+    <nav id="mobile-nav">
+      <div class="mobile-icon" onclick="toggleMenu()">
+        <img
+        src="./assets/logo.png"
+        alt="My logo"
+        class="logo"
+      />
+    </div>
+      <div class="mobile-menu">
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>    
+
+    <div class="background_alt">
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/main_img.gif" alt="Profile picture" class="about_pic"/>
+      </div>
+
+      <div class="section__text">
+        <p class="section__text__p1">Hi, I'm</p>
+      
+        <h1 class="title">
+        Christina</h1>
+
+        <p class="section__text__p2">As a senior software engineering student, 
+          I am passionate about creating applications that are fun and user-friendly.</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/resume-example.pdf')"
+          >
+            Download Resume
+          </button>
+        </div>
+        
+        <div id="socials-container">
+          <img
+
+            src="./assets/linkedinLogo.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/'"
+          />
+          <img
+            src="./assets/githubLogo.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/'"
+          />
+        </div>
+      </div>
+    </section>
+    </div>
+
+    <div class="profile_alt">
+    <section id="about">
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/aboutme.gif"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h2>Education</h2>
+              <hr style="border-top: solid 1px;" />
+              <p><u>Oregon State University</u><br><i>B.S. Computer Science</i>
+                <br>Aug 2022 - 2024</p>
+                <hr style="border-top: dotted 1px;" />
+              <p><u>University of Central Florida</u><br><i>B.S. Nursing</i>
+                <br>Aug 2016 - May 2020</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Hello, I am a senior Computer Science student at Oregon State University. Before I began pursuing a degree in computer science, 
+              I was a nurse. I graduated from nursing school in May 2020 from the University of Central Florida (Go Knights!). 
+              I have worked as a nurse for several years as a critical care nurse, nursing manager and as a director of infection control. 
+              Despite my love for nursing, I made a big career change to software engineering. I gave coding
+              a try even though I had zero experience with it. I took my first programming course (Intro to C) and found that 
+              I love problem solving, creating fun programs and constantly learning more.
+              <br>
+              Currently I am a Software Engineer Intern at Disney and look forward becoming a full fledged engineer in 2024!
+            </p>
+          </div>
+        </div>
+      </div>
+    <img
+        src="./assets/arrow.png"
+        alt="Scroll Icon"
+        class="icon_scroll"
+        onclick="location.href='./#experience'"
+      />
+    </div>
+  </div>
+    </section>
+
+    <div class="background_alt">
+    <section id="experience">
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <p class="section__text__p1">Frontend / Backend</p>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/gear.gif"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h2>Java</h2>
+                </div>
+              </article>
+              <article>
+                <img
+                src="./assets/gear.gif"
+                alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h2>Python</h2>
+                </div>
+              </article>
+              <article>
+                <img
+                src="./assets/gear.gif"
+                alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h2>JavaScript</h2>
+                </div>
+              </article>
+              <article>
+                <img
+                src="./assets/gear.gif"
+                alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h2>TypeScript</h2>
+                </div>
+              </article>
+              <article>
+                <img
+                src="./assets/gear.gif"
+                alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h2>SQL</h2>
+                </div>
+              </article>
+              <article>
+                <img
+                src="./assets/gear.gif"
+                alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h2>React</h2>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/gear.gif"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h2>HTML / CSS</h2>
+                </div>
+              </article>
+              <article>
+                <img
+                src="./assets/gear.gif"
+                alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h2>DyanmoDB</h2>
+                </div>
+              </article>
+              <article>
+                <img
+                src="./assets/gear.gif"
+                alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h2>MongoDB</h2>
+                </div>
+              </article>
+              
+            </div>
+          </div>
+          <div class="details-container">
+            <p class="section__text__p1">Other</p>
+            <div class="article-container">
+              <article>
+                <img
+                src="./assets/gear.gif"
+                alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h2>Git</h2>
+                </div>
+              </article>
+              <article>
+                <img
+                src="./assets/gear.gif"
+                alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h2>Docker</h2>
+                </div>
+              </article>
+              <article>
+                <img
+                src="./assets/gear.gif"
+                alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h2>AWS</h2>
+                </div>
+              </article>
+              <article>
+                <img
+                src="./assets/gear.gif"
+                alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h2>Agile</h2>
+                </div>
+              </article>
+              <article>
+                <img
+                src="./assets/gear.gif"
+                alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h2>Leadership</h2>
+                </div>
+              </article>
+            </div>
+          </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        class="icon_scroll"
+        onclick="location.href='./#projects'"
+      />
+      <br>
+      <br>
+      <br>
+    </div>
+    </div>
+    </section>
+
+    <div class="background_project">
+      <div id="projects">
+      <h1 class="title">Projects</h1>
+      <div class="section-container2 experience-container">
+        <div class="section-content Experience-content">
+          <div class="project-card"><div class="project-card-image-div">
+            <img src="assets/twitter.gif" 
+            alt="" 
+            class="rounded project-card-image">
+          </div>
+          <div class="project-card-content">
+            <h4 class="project-card-title">Twitter Bot</h4>
+            <p class="project-card-etc">
+              <span class="project-card-etc-highlight"><i>Date</i></p>
+              <div class="project-card-title-divider"></div>
+              <p class="project-card-text">
+                Built a program that tracks Ariana Grande's tweets live. Whenever Ariana Grande tweets the prorgam will text the 
+                contents of the tweets to my phone. 
+              </p>
+              <p class="project-card-text"><span class="project-card-keyword">Technologies Invovled:</span> Python, Twitter API, Twilio, Tweepy</p>
+              <div>
+              </div>
+            </div>
+          </div>
+          <div class="project-card-divider"></div>
+          <div class="project-card"><div class="project-card-image-div">
+            <img src="/assets/HouseScape.png" 
+            alt="" 
+            class="rounded project-card-image">
+          </div>
+          <div class="project-card-content">
+            <h4 class="project-card-title">HouseScape</h4>
+            <p class="project-card-etc">
+              <span class="project-card-etc-highlight"><i>February 2022</i></p>
+              <div class="project-card-title-divider"></div>
+              <p class="project-card-text">This project was part of Pearl Hacks Hackathon and I won first place in the category I competed in.
+                I worked solo to utilize virtual reality technology to spatially present real estate data points on a map. I created the application in 
+              Unity and integrated it with the Oculus Quest 2. </p>
+              <p class="project-card-text"><span class="project-card-keyword">Technologies Invovled:</span> Unity, C#, Oculus Quest 2, Mapbox API incorporated to generate a map</p>                
+            </div>
+          </div>
+
+          <div class="project-card-divider"></div>
+          <div class="project-card"><div class="project-card-image-div">
+            <img src="/assets/key.jpg" 
+            alt="" 
+            class="rounded project-card-image">
+          </div>
+          <div class="project-card-content">
+            <h4 class="project-card-title">Social Key</h4>
+            <p class="project-card-etc">
+              <span class="project-card-etc-highlight"><i>May 2021</i></p>
+              <div class="project-card-title-divider"></div>
+              <p class="project-card-text">Project part of Blaock Hacks 2021, 5 day hackathon applying blockchain technology in areas of financial freedom and end-user control.
+                I worked with 3 group members to develop a plan for a mobile wallet to store Digital IDs issued using HyperLedger Indy with social key recovery. Assisted in development of prototype code using
+                React-Native and JavaScript backend which communicates with a distributed ledger, HyperLedger Indy.</p>
+              <p class="project-card-text"><span class="project-card-keyword">Technologies Invovled:</span> React Native, JavaScript, Figma</p>
+              <div>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card-divider"></div>
+          <div class="project-card"><div class="project-card-image-div">
+            <img src="/assets/Screenshot 2023-07-10 213852.png" 
+            alt="" 
+            class="rounded project-card-image">
+          </div>
+          <div class="project-card-content">
+            <h4 class="project-card-title">Oregon State Hackathon Club Site</h4>
+            <p class="project-card-etc">
+              <span class="project-card-etc-highlight"><i>July 2022 - present</i></p>
+              <div class="project-card-title-divider"></div>
+              <p class="project-card-text">Develop features and maintain code for club website hosted on Netlify using HTML, CSS and JavaScript.</p>
+              <p class="project-card-text"><span class="project-card-keyword">Technologies Invovled:</span> JavaScript, HTML/CSS, React</p>
+              <div>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card-divider"></div>
+          <div class="project-card"><div class="project-card-image-div">
+            <img src="/assets/escaperoom.gif" 
+            alt="" 
+            class="rounded project-card-image">
+          </div>
+          <div class="project-card-content">
+            <h4 class="project-card-title">Escape Room App</h4>
+            <p class="project-card-etc">
+              <span class="project-card-etc-highlight"><i>February 2021</i></p>
+              <div class="project-card-title-divider"></div>
+              <p class="project-card-text">This project is part of Pearl Hacks hackathon, I worked with 3 group memebers to design an 
+                Escape Room game whose clues educate players about some amazing people in STEM fields! 
+              </p>
+              <p class="project-card-text"><span class="project-card-keyword">Technologies Invovled:</span> Dart, Flutter</p>
+              <div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <img
+          src="./assets/arrow.png"
+          class="icon_scroll"
+          onclick="location.href='./#contact'"
+        />
+          <br>
+          <br>
+        </div>
+      </div>
+      </div>
+  </div>
+</div>
+
+<div class="background_alt">
+    <section id="contact">
+      <h1 class="title">Contact Me</h1>
+      <p>I am currently looking for new grad software engineering opportunities, so if you are interested feel free to contact me via <a href="https://www.linkedin.com/in/chrissy-hi/">LinkedIn</a>.</p>
+      <form id="contact-form" method="POST" action="sendmail.php">
+        <div class="form-row form-error" style="display:none;"></div>
+        <div class="form-row">
+          <label for="contact-form-name">Name</label>
+          <input id="contact-form-name" class="form-input" type="text" name="name" value="your name" required>
+        </div>
+        <div class="form-row">
+          <label for="contact-form-email">Email</label>
+          <input id="contact-form-email" class="form-input" type="email" name="email" value ="youremail@email.com" required>
+        </div>
+        <div class="form-row">
+          <label for="contact-form-message">Message</label>
+          <br>
+          <textarea id="contact-form-message" class="form-input" name="message" required>This website is not hosted on a live server, so this form will not work to submit the email. Please contact me on LinkedIn instead, thank you.
+          </textarea>
+        </div>
+        <div class="btn-holder">
+        <button type="submit" class="submit">Send</button>
+        </div>
+      </form>
+    </div>
+    </section>
+    
+    <div class="background_alt">
+      <div class="footer_container">
+        <div class="footer_socials">
+        <img
+            src="./assets/linkedinLogo.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/'"
+          />
+          <img
+            src="./assets/githubLogo.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/'"
+          />
+          <p>Made By Christina Persaud</p>
+      </div>  
+    </div>  
+  </div>
+    <script src="script.js"></script>
+  </body>
+</html>
