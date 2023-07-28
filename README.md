@@ -6,7 +6,13 @@ Portfolio site was created to display information about me, my projects and expe
 
 ## Video Walkthrough
 
+Please give the GIF some time to load....
+
+
 ![](https://github.com/chrissy-hi/portfolioWebSite2023/blob/main/assets/portfolioWebSiteAnimation.gif)
 
 GIF created with ...  
 [ScreenToGif](https://www.screentogif.com/)
+
+
+
